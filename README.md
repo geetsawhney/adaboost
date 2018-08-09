@@ -12,7 +12,7 @@
 ```deactivate```  
 in the directory where you have created the virtual environment.
 * To run in train mode  
-```	python3 classify.py --mode train --algorithm algorithm_name --model-file model_file --data train_file```
+```	python3 classify.py --mode train --algorithm adaboost --model-file model_file --data train_file```
 * To run in test mode  
 ```python3 classify.py --mode test --model-file model_file --data test_file --predictions-file predictions_file```  
 
